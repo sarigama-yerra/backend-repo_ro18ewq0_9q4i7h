@@ -1,0 +1,29 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [152] using StatReload
+INFO:     Started server process [154]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:60926 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:60940 - "GET /meals/today HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60956 - "GET /events HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60950 - "GET /news HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60958 - "GET /stats HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60940 - "GET /news HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60950 - "GET /meals/surplus HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60954 - "GET /events HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60956 - "GET /stats HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60968 - "GET /meals/today HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60940 - "GET /meals/surplus HTTP/1.1" 200 OK
+INFO:     172.20.0.1:32990 - "GET /meals/today HTTP/1.1" 200 OK
+INFO:     172.20.0.1:32990 - "GET /news HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33002 - "GET /news HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33038 - "GET /events HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33014 - "GET /stats HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33002 - "GET /meals/surplus HTTP/1.1" 200 OK
+INFO:     172.20.0.1:32990 - "GET /stats HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33042 - "GET /events HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33012 - "GET /meals/today HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33038 - "GET /meals/surplus HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59004 - "OPTIONS /auth/login HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59004 - "POST /auth/login HTTP/1.1" 401 Unauthorized
